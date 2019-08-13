@@ -18,8 +18,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
     decode_packet.cpp \
-    image_src.cpp \
-    api.cpp
+    api.cpp \
+    decode_img.cpp
 RESOURCES += qml.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
@@ -37,5 +37,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     decode_packet.h \
-    image_src.h \
-    api.h
+    api.h \
+    decode_img.h
